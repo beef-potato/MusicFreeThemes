@@ -10,3 +10,10 @@
 
 [💖主题包使用的插画作者和来源](./lendlist.md)
 
+# 预览
+
+mygo.mftheme
+
+![](https://github.com/beef-potato/picx-images-hosting/raw/master/musicfreeTheme/mygopreview.9rj81mm3dr.webp)
+
+
