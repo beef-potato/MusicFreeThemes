@@ -4,6 +4,9 @@
 
 所有的主题文件description都写了封面作者的名字和原图链接，此外 lend list 也依次列出。
 
+# 使用方法
+
+查看原作者 https://github.com/maotoumao/MusicFreeDesktop 的主题包条目
 
 
 # lend list
