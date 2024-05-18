@@ -19,4 +19,7 @@ mygo.mftheme
 
 ![](https://github.com/beef-potato/picx-images-hosting/raw/master/musicfreeTheme/mygopreview.9rj81mm3dr.webp)
 
+autumn.mftheme
+
+![](https://github.com/beef-potato/picx-images-hosting/raw/master/musicfreeTheme/autumnpreview.pf5vqo97v.webp)
 
