@@ -12,7 +12,7 @@
   --dividerColor: #e8e8e8 !important;
   --maskColor: rgba(255, 255, 255, 0.3) !important;
   --backdropColor: rgba(255,255,255,0.8) !important;
-  --primaryColor: #97D9E1 !important;
+  --primaryColor: #0B214B !important;
   --listHoverColor: rgba(255, 255, 255, 0.05) !important;
   --listActiveColor: rgba(255, 255, 255, 0.1) !important;
   --placeholderColor: #139acf !important;
@@ -28,7 +28,7 @@
 }
 
 .header-container {
-  background-color: #97D9E1;
+  background-color: #97D9E1 !important;
 }
 
 .music-bar-container {
