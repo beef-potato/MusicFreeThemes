@@ -6,7 +6,7 @@ https://color.adobe.com/zh/create/image, 可以从上传的图片中寻找一些
 
 # ref
 
-不需要的样式其实可以删掉
+不需要的样式其实可以删掉, 各个区块无css样式则使用主题色填充。
 
 ## index.css
 ```css
@@ -25,8 +25,7 @@ https://color.adobe.com/zh/create/image, 可以从上传的图片中寻找一些
 --dangerColor: #FC5F5F; // 危险颜色
 --infoColor: #0A95C8; // 通知颜色
 --headerTextColor: white; // 顶部文本颜色
---backdropColor: #ffffff !important;//sidebar
-
+--backdropColor: #ffffff !important;//顶部下拉背景颜色
 
 }
 
@@ -48,6 +47,13 @@ mask-image: none !important;
 -webkit-mask-image: none !important;
 }
 
+.components--tag-container { //标签背景
+    background-color: transparent !important;
+}
+
+.side-bar-container {
+    background-color: black !important; //左侧边栏
+}
 
 }
 ```
