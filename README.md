@@ -23,3 +23,5 @@ autumn.mftheme
 
 ![](https://github.com/beef-potato/picx-images-hosting/raw/master/musicfreeTheme/autumnpreview.pf5vqo97v.webp)
 
+gradient.mftheme
+![](./gradient/imgs/preview.png)
