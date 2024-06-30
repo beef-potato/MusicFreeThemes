@@ -9,6 +9,6 @@ target = source + dotname
 subprocess.run([
     "pwsh",
     "-Command",
-    f"Compress-Archive -Path {source} -destinationPath {target}"
+    f"Compress-Archive -Path {source}\\* -destinationPath {target} -force"
 ])
 
