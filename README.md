@@ -25,3 +25,6 @@ autumn.mftheme
 
 gradient.mftheme
 ![](./gradient/imgs/preview.png)
+
+gradient2.mftheme
+![](./gradient2/imgs/preview.png)
