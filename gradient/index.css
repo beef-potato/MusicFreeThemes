@@ -11,11 +11,11 @@
   --shadowColor: rgba(0, 0, 0, 0.15) !important;
   --dividerColor: #e8e8e8 !important;
   --maskColor: rgba(255, 255, 255, 0.3) !important;
-  --backdropColor: rgba(255,255,255,0.8) !important;
-  --primaryColor: #0B214B !important;
+  --backdropColor: rgba(255,255,255) !important;
+  --primaryColor: #BED9B0 !important;
   --listHoverColor: rgba(255, 255, 255, 0.05) !important;
   --listActiveColor: rgba(255, 255, 255, 0.1) !important;
-  --placeholderColor: #139acf !important;
+  --placeholderColor: transparent !important;
   --headerTextColor: black !important;
   
 }
