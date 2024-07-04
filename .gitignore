@@ -10,6 +10,8 @@ tryhtml/*
 #anything I want to ignore
 try*
 SCRACH*
+# themes
+*mftheme
 
 # Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,pycharm,python,powershell
 # Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,pycharm,python,powershell

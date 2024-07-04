@@ -25,7 +25,7 @@ https://color.adobe.com/zh/create/image, 可以从上传的图片中寻找一些
 --dangerColor: #FC5F5F; // 危险颜色
 --infoColor: #0A95C8; // 通知颜色
 --headerTextColor: white; // 顶部文本颜色
---backdropColor: #ffffff !important;//顶部下拉背景颜色
+--backdropColor: #ffffff !important;//弹窗等地方的背景颜色，默认和背景色一致*/
 
 }
 
