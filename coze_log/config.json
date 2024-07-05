@@ -1,0 +1,8 @@
+{
+    "name": "coze log",
+    "preview": "@/imgs/preview.png", 
+    "iframe": {
+        "app": "@/iframes/app.html"
+    },
+    "author": "搬运自wallpaperengine"
+}
