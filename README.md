@@ -28,3 +28,6 @@ gradient.mftheme
 
 gradient2.mftheme
 ![](./gradient2/imgs/preview.png)
+
+coze_log
+![](./coze_log/imgs/preview.png)
