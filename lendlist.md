@@ -9,3 +9,9 @@ Bison倉鼠:
 coze log from Bliss.
 - [coze log](https://steamcommunity.com/sharedfiles/filedetails/?id=3035257241)
 
+## blue archive resource
+
+Blue Archive is a registered trademark of NAT GAMES Co., Ltd. This repo is not affiliated with NEXON Korea Corp. & NEXON GAMES Co., Ltd. All game resources are copyrighted to the respective owners.
+
+BA Noa webm.
+- noa https://github.com/SunsetMkt/blue-archive-spine

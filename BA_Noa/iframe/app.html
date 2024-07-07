@@ -1,0 +1,36 @@
+<!-- Blue Archive is a registered trademark of NAT GAMES Co., Ltd. This repo is not affiliated with NEXON Korea Corp. & NEXON GAMES Co., Ltd.
+All game resources are copyrighted to the respective owners. -->
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <title>blue archive noa</title>
+        <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        video#bg-video{
+            /* background :url(../imgs/preview.png) no-repeat;
+            background-size: cover; */
+            position: fixed;
+            top: 0;
+            left: 0;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            z-index: -1;
+            overflow: hidden;
+        }
+        </style>
+
+    </head>
+    <body>
+        <video autoplay loop poster="@/imgs/preview.png" id="bg-video">
+            <source src="@/video/ch0095.webm" type="video/webm"/>
+        </video>
+    </body>
+</html>

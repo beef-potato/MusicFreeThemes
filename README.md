@@ -34,3 +34,6 @@ coze_log
 
 tubeLightText
 ![](./tubeLightText/imgs/preview.png)
+
+BlueArchive Noa
+![](./BA_Noa/imgs/preview.png)

@@ -1,0 +1,8 @@
+{
+    "name": "蔚蓝档案Noa",
+    "preview": "@/imgs/preview.png", 
+    "author": "beef-potato",
+    "iframe":{
+        "app": "@/iframe/app.html"
+    }
+}

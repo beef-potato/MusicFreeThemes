@@ -17,7 +17,7 @@ https://color.adobe.com/zh/create/image, 可以从上传的图片中寻找一些
 --listHoverColor: rgba(0, 0, 0, 0.05); // 列表悬浮颜色
 --listActiveColor: rgba(0, 0, 0, 0.1); // 列表选中颜色
 --textColor: #333333; // 主文本颜色
---maskColor: rgba(51, 51, 51, 0.2); // 遮罩层颜色
+--maskColor: rgba(51, 51, 51, 0.2); // 遮罩层颜色, 也就是右侧边栏出现的时候，左边的颜色
 --shadowColor: rgba(0, 0, 0, 0.2); // 对话框等阴影颜色
 /** --shadow:  // shadow属性 */
 --placeholderColor: #f4f4f4; // 输入区背景颜色
