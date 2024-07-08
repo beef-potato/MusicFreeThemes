@@ -27,6 +27,9 @@ autumn.mftheme
 
 ![](./autumn/imgs/autumn.jpg)
 
+sakuraMiku
+![](./sakuraMiku/imgs/39.png)
+
 gradient.mftheme
 ![](./gradient/imgs/preview.png)
 

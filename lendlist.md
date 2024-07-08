@@ -4,7 +4,7 @@ Bison倉鼠:
 
 - [mygo.mftheme](./themes/mygo.mftheme), https://www.pixiv.net/artworks/112236596
 - [autumn](./themes/autumn.mftheme), https://www.pixiv.net/artworks/60095408
-
+- [sakuraMiku](./sakuraMiku/), https://www.pixiv.net/artworks/67646151
 
 
 # 未公开声明转载许可
