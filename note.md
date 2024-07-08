@@ -78,3 +78,27 @@ mask-image: none !important;
 ## 关于preview
 
 说起来每次更改css都会涉及ui的改变，那每一次都修改preview.png实在是麻烦，不如以后把背景改成单纯网页或者背景图片的截图，这样就不用反复修改了
+
+## 关于播放器尺寸
+
+ 1050 * 700 px. 这部分在 `src/main/window/main-window.ts`中定义
+
+```ts
+export const createMainWindow = (): BrowserWindow => {
+  // Create the browser window.
+  mainWindow = new BrowserWindow({
+    height: 700,
+    width: 1050,
+    webPreferences: {
+      preload: MAIN_WINDOW_PRELOAD_WEBPACK_ENTRY,
+      nodeIntegration: true,
+      nodeIntegrationInWorker: true,
+      webSecurity: false,
+      sandbox: false,
+      webviewTag: true,
+    },
+    resizable: false,
+    frame: false,
+    icon: nativeImage.createFromPath(getResPath("logo.png")),
+  });
+  ```
