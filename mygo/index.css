@@ -7,15 +7,15 @@
 :root {
   --textColor: #ffffff !important;
   --textSecondaryColor: #000000 !important;
-  --backgroundColor: #7c748d !important;
+  --backgroundColor: #8a86b3 !important;
   --shadowColor: rgba(0, 0, 0, 0.15) !important;
   --dividerColor: rgba(255, 255, 255, 0.1) !important;
   --maskColor: none !important;
   --backdropColor: #253c68 !important;
-  --primaryColor: #d38188 !important;
+  --primaryColor: #FF8899 !important;
   /* 播放键的颜色，以及文字被选中的颜色*/
-  --listHoverColor: rgba(255, 255, 255, 0.05) !important;
-  --listActiveColor: rgba(255, 255, 255, 0.1) !important;
+  --listHoverColor: rgba(0, 0, 0, 0.1) !important;
+  --listActiveColor: rgba(0, 0, 0, 0.3) !important;
   --placeholderColor: #424242 !important;
 
 }

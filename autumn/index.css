@@ -11,19 +11,16 @@
   --shadowColor: rgba(0, 0, 0, 0.15) !important;
   --dividerColor: rgba(255, 255, 255, 0.1) !important;
   --maskColor: rgba(242, 191, 179, 0.3) !important;
-  --backdropColor: #F2B749 !important;
   --primaryColor: #F2B749 !important;
-  /* 播放键的颜色，以及文字被选中的颜色*/
-  --listHoverColor: rgba(255, 255, 255, 0.05) !important;
-  --listActiveColor: rgba(255, 255, 255, 0.2) !important;
-  --placeholderColor: #424242 !important;
+  --listHoverColor: rgba(59, 31, 54, 0.1) !important;
+  --listActiveColor: rgba(59, 31, 54, 0.3) !important;
+  --placeholderColor: rgba(255,255,255,0.4) !important;
 
 }
 
 .right-part {
   --headerTextColor: #333 !important;
 }
-
 
 .music-detail-background {
   mask-image: none !important;
