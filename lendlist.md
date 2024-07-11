@@ -18,3 +18,8 @@ Blue Archive is a registered trademark of NAT GAMES Co., Ltd. This repo is not a
 BA Noa webm.
 
 - noa https://github.com/SunsetMkt/blue-archive-spine
+
+flying chibi
+
+https://wiki.biligame.com/blhx/%E9%A6%96%E9%A1%B5
+

@@ -75,6 +75,7 @@ mask-image: none !important;
     }
 }
 ```
+
 ## 关于preview
 
 说起来每次更改css都会涉及ui的改变，那每一次都修改preview.png实在是麻烦，不如以后把背景改成单纯网页或者背景图片的截图，这样就不用反复修改了
@@ -102,3 +103,8 @@ export const createMainWindow = (): BrowserWindow => {
     icon: nativeImage.createFromPath(getResPath("logo.png")),
   });
   ```
+
+
+## 关于html文件索引
+
+config.json, html文件内部需要使用`@`指代根目录， 但是引用的css文件内部则需要保持正常的索引方式`../imgs...`, 可以参考[flyingChibi](./flyingChibi/)文件夹内的组织方式。

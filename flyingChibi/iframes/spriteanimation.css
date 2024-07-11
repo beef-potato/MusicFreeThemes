@@ -1,0 +1,18 @@
+.sprite-container {
+    width: 130px;  /* Width of a single frame */
+    height: 134px; /* Height of a single frame */
+    overflow: hidden;
+}
+
+.bulin {
+    width: 130px; /* Width of the entire sprite sheet (number of frames * frame width) */
+    height: 134px; /* Height of a single frame */
+    background: url('../imgs/bulin.png') no-repeat;
+    animation: play 0.5s steps(7) infinite;
+}
+
+
+@keyframes play {
+    100% { background-position: -910px; }
+}
+

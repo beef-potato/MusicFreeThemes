@@ -1,0 +1,93 @@
+<!-- buthor beef-potato -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprite Animation</title>
+    <link rel="stylesheet" href="@/iframes/spriteanimation.css">
+</head>
+<body>
+    <div class="sprite-container">
+        <div class="bulin"></div>
+    </div>
+    
+    <script>
+        const spriteContainer = document.querySelector(".sprite-container");
+        const bulin = document.querySelector(".bulin");
+        const FPS = 60;
+            let entranceDuration = 1000;
+            let entranceFrames = entranceDuration / (1000/FPS);
+            let entranceFrame = 0;
+            let x = -3*entranceFrames;
+            let y = -3*entranceFrames;
+            let xspeed = 3;
+            let yspeed = 3;
+            const containerWidth = 130;
+            const containerHeight = 134;
+            
+            let loop = 0;
+            //initial draw
+            spriteContainer.style.marginLeft = x+"px";
+            spriteContainer.style.marginTop = y+"px";
+
+
+            // Initial flip
+            spriteContainer.style.transform = 'scaleX(-1)';
+
+
+            function update(){
+
+                if (entranceFrame < entranceFrames) {
+                    x += xspeed;
+                    y += yspeed;
+                    entranceFrame++;
+                }else{
+
+                    x += xspeed;
+                    y += yspeed;
+                    const isCollidingWithRightSide = (x + containerWidth >= window.innerWidth);
+                    if (isCollidingWithRightSide){
+                        x = window.innerWidth - containerWidth;
+                        xspeed = -xspeed;
+                        // spriteContainer.style.transform = xspeed > 0 ? "scaleX(1)" : 'scaleX(-1)';
+                        spriteContainer.style.transform = 'scaleX(1)';
+                    }
+                    const isCollidingWithLeftSide = (x <= 0);
+                    if (isCollidingWithLeftSide) {
+                        x = 0;
+                        xspeed = -xspeed;
+                        // spriteContainer.style.transform = xspeed > 0 ? "scaleX(1)" : 'scaleX(-1)';
+                        spriteContainer.style.transform = 'scaleX(-1)';
+                    }
+                    const isCollidingWithBottomSide = (y + containerHeight >= window.innerHeight);
+                    if (isCollidingWithBottomSide) {
+                        y = window.innerHeight - containerHeight;
+                        yspeed = -yspeed;
+                    }
+                    const isCollidingWithUpSide = (y<=0);
+                    if (isCollidingWithUpSide) {
+                        y = 0;
+                        yspeed = -yspeed;
+                    }
+    
+                }
+                //update the position of sprite-container
+                spriteContainer.style.marginLeft = x+"px";
+                spriteContainer.style.marginTop = y+"px";
+                
+            }
+
+            function animate(){
+                update();
+            }
+
+            setTimeout(() => {
+                window.setInterval(animate, 1000/FPS);
+                
+            }, 1000); //duration of enter animation
+        </script>
+    
+
+</body>
+</html>

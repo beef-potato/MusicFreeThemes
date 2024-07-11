@@ -44,3 +44,6 @@ tubeLightText
 
 BlueArchive Noa
 ![](./BA_Noa/imgs/preview.png)
+
+flyingChibi
+![](./flyingChibi/imgs/preview.png)

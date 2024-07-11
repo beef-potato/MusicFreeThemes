@@ -1,0 +1,9 @@
+{
+    "name": "碧蓝航线维基布里小动画",
+    "preview": "@/imgs/preview.png",
+    "description": "复刻了碧蓝航线维基的小动画, spritesheet和background均来自维基，https://wiki.biligame.com/blhx/%E9%A6%96%E9%A1%B5",
+    "author": "beef-potato",
+    "iframe":{
+        "app": "@/iframes/bulin.html"
+    }
+}
